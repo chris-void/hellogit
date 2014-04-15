@@ -4,25 +4,26 @@
 
 First of all make sure that you have regist on the **github.com** and remember you name on github, then run:
 
-'''
+```code
 cd ~
 ls -a
-'''
+```
+
 
 **if** you have found the .ssh dir:
 
-'''
+```code
 cd .ssh
 gedit id_rsa.pub
-'''
+```
 
 copy all the things in it to (github.com/your-name) >> "Account settings" >> "SSH Keys" >> "Add SSH Key" >> Key (what inside "" means a button)  
 
 
 **else** run:
-'''
+```code
 ssh-keygen -t rsa -C "youremail@example.com"
-'''
+```
 then you can do the following steps beneath **if**
   
 
